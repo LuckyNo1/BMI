@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="20dp" >
+
+    <Button
+        android:id="@+id/pagemain_one"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="体重指数计算" 
+        android:textColor="#FFFFFF"/>
+    
+    <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="        " 
+        		android:textSize="20sp"/>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioGroup											
+            android:id="@+id/rgSex"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:checkedButton="@+id/rdoMale"			
+            android:orientation="horizontal"
+            android:textColor="#FFFFFF" >				
+
+            <RadioButton
+                android:id="@+id/rdoMale"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="男" 
+                android:textColor="#FFFFFF">
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rdoFemale"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="女"
+                android:textColor="#FFFFFF" >
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+    
+    <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="        " 
+        		android:textSize="20sp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="身高(cm):" 
+        android:textColor="#FFFFFF"/>
+    
+    <EditText
+            android:id="@+id/stature"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入身高"
+            android:textColorHint="#9F9F5F"
+            android:background="#FFFFFF"
+            android:maxLines="1"/>
+    
+    <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="        " 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="体重(kg):"
+        android:textColor="#FFFFFF" />
+    
+    <EditText
+            android:id="@+id/bodyweight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入体重"
+            android:textColorHint="#9F9F5F"
+            android:background="#FFFFFF"
+            android:maxLines="1"/>
+    
+    <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="        " 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="标准说明" 
+        android:textColor="#FFFFFF"/>
+    
+    <EditText
+            android:id="@+id/standardexplain"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:maxLines="4"/>
+
+    <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="        " 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+        
+        <Button
+        	android:id="@+id/compute"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1.0"
+        	android:text="计算"
+        	android:textColor="#000000"
+        	android:background="#00FF00"/>
+        
+    	<Button
+        	android:id="@+id/explain"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center_horizontal"
+        	android:layout_weight="1.0"
+        	android:text="说明"
+        	android:textColor="#000000"
+        	android:background="#FF00FF"/>
+    	
+    	<Button
+        	android:id="@+id/exit"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1.0"
+        	android:text="退出"
+        	android:textColor="#000000"
+        	android:background="#00FF00"/>
+    </LinearLayout>
+
+</LinearLayout>

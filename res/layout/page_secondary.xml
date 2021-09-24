@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="20dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"				
+        android:layout_height="wrap_content" >
+
+        	<TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="体重指数说明" 
+        		android:textSize="20sp"
+        		android:textColor="#6B8E23"/>
+        	
+        	<TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="      												" 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+        
+        	<Button
+            	android:id="@+id/pagesec_one"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="返回"
+           	 	android:textColor="#6B8E23"/>
+
+   </LinearLayout>
+    
+   <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="体重指数是用来衡量人体体重是否正常(正常还是或胖或瘦)的一种计算方法，这种方法将人的体重和升高作为主要的计算依据。" 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+   
+   <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="        " 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+   
+   <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="体重指数=体重/身高/身高(千克/平方米)" 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+   
+   <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="理想体重指数为:22" 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+   
+   <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="        " 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+   
+   <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="不同性别成人体重指数标准:" 
+        		android:textSize="20sp"
+        		android:textColor="#38B0DE"/>
+   
+   <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="偏轻 男 :小于20   女 :小于19" 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+   
+   <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="正常 男 :20-25   女 :19-24" 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+   
+   <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="偏重 男 :25-30   女 :24-29" 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+   
+   <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="肥胖 男 :30-35   女 :29-34" 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+   
+   <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="超肥胖 男 :大于35   女 :大于34" 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+   
+   <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="        " 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+   
+   <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="比如 :一个身高165cm，体重57kg" 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+   
+   <TextView
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="体重指数为:20.94，属于正常。" 
+        		android:textSize="20sp"
+        		android:textColor="#FFFFFF"/>
+   
+</LinearLayout>
